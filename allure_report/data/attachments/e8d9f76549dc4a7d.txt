@@ -1,0 +1,8 @@
+INFO     PROJECT:configHttp.py:47 login / post请求：
+请求值：{'username': '天才儿子', 'password': '111111'}
+返回值：
+{
+  "code": "1", 
+  "msg": "密码不正确"
+}
+状态码：200

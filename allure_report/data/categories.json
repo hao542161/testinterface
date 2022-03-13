@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Exception: 请求错误",
+      "children" : [ {
+        "name" : "test_fail_login[错误的用户]",
+        "uid" : "137d5bd05d02b5f",
+        "parentUid" : "c7d48d03bda8f0eff6d0b96467636da2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647152295806,
+          "stop" : 1647152295945,
+          "duration" : 139
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 'ceshi', 'password': '123456'}" ]
+      } ],
+      "uid" : "c7d48d03bda8f0eff6d0b96467636da2"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}
