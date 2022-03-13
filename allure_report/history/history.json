@@ -1,0 +1,60 @@
+{
+  "99943cf8b4a86aef08cd3201b40280c1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1c956f15e5485245",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647154451369,
+        "stop" : 1647154451455,
+        "duration" : 86
+      }
+    } ]
+  },
+  "8b24ede942356fb86886f75660256535" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "653af9706fb42a47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1647154451459,
+        "stop" : 1647154451543,
+        "duration" : 84
+      }
+    } ]
+  },
+  "ccc6faa35af0ab44a21cffdd53442399" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f2f3ffdcdd2bf0eb",
+      "status" : "broken",
+      "statusDetails" : "Exception: 请求错误",
+      "time" : {
+        "start" : 1647154451547,
+        "stop" : 1647154451661,
+        "duration" : 114
+      }
+    } ]
+  }
+}

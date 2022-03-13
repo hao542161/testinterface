@@ -1,0 +1,56 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcases",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "test_success_login[login_params0]",
+          "uid" : "1c956f15e5485245",
+          "parentUid" : "ffc02a8df647df21acdd57e0c480b4f4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647154451369,
+            "stop" : 1647154451455,
+            "duration" : 86
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': '天才儿子', 'password': '123456'}" ]
+        }, {
+          "name" : "test_fail_login[错误的密码]",
+          "uid" : "653af9706fb42a47",
+          "parentUid" : "ffc02a8df647df21acdd57e0c480b4f4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1647154451459,
+            "stop" : 1647154451543,
+            "duration" : 84
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': '天才儿子', 'password': '111111'}" ]
+        }, {
+          "name" : "test_fail_login[错误的用户]",
+          "uid" : "f2f3ffdcdd2bf0eb",
+          "parentUid" : "ffc02a8df647df21acdd57e0c480b4f4",
+          "status" : "broken",
+          "time" : {
+            "start" : 1647154451547,
+            "stop" : 1647154451661,
+            "duration" : 114
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'username': 'ceshi', 'password': '123456'}" ]
+        } ],
+        "uid" : "ffc02a8df647df21acdd57e0c480b4f4"
+      } ],
+      "uid" : "ab70c067fdfc04844e6dad4d931d9fae"
+    } ],
+    "uid" : "b51346658ccdb9db01a6b5f6c12deab1"
+  } ]
+}
