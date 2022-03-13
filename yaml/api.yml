@@ -1,0 +1,13 @@
+login:         #接口名称
+  name: 登录接口       #接口描述
+  method: post        #请求方法
+  url: login         #请求路径
+  params:               #请求参数
+    username: 天才儿子       #参数描述
+    password: '123456'
+  failpwd_params:               #请求参数
+    username: 天才儿子       #参数描述
+    password: '111111'
+  failname_params:               #请求参数
+    username: 'ceshi'       #参数描述
+    password: '123456'

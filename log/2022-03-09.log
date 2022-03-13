@@ -1,0 +1,78 @@
+[2022-03-09  13:34:58.981] configHttp.py -> send_post line:43 [INFO] : login1 / post请求：
+请求值：{'username': '张豪儿子', 'password': '123456'}
+返回值：
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+状态码：404
+[2022-03-09  13:36:13.000] configHttp.py -> send_post line:43 [INFO] : login / post请求：
+请求值：{'username': '张豪儿子', 'password': '123456'}
+返回值：
+{
+  "code": "0", 
+  "data": {
+    "address": "浙江省杭州市西湖区", 
+    "eamil": "1228015675@qq.com", 
+    "phone": "15757191674", 
+    "userid": 16
+  }, 
+  "msg": "登录成功"
+}
+状态码：200
+[2022-03-09  14:13:00.278] configemail.py -> sendemail_file line:72 [CRITICAL] : 发送邮件成功！收件人分别为：676817831@qq.com
+[2022-03-09  14:15:32.919] configemail.py -> sendemail_file line:72 [CRITICAL] : 发送邮件成功！收件人分别为：676817831@qq.com
+[2022-03-09  14:17:54.237] configemail.py -> sendemail_file line:72 [CRITICAL] : 发送邮件成功！收件人分别为：676817831@qq.com
+[2022-03-09  14:18:18.097] configemail.py -> sendemail_file line:72 [CRITICAL] : 发送邮件成功！收件人分别为：15757191674@163.com
+[2022-03-09  15:25:54.036] configHttp.py -> send_post line:43 [INFO] : login / post请求：
+请求值：{'username': '张豪儿子', 'password': '123456'}
+返回值：
+{
+  "code": "0", 
+  "data": {
+    "address": "浙江省杭州市西湖区", 
+    "eamil": "1228015675@qq.com", 
+    "phone": "15757191674", 
+    "userid": 16
+  }, 
+  "msg": "登录成功"
+}
+状态码：200
+[2022-03-09  15:26:13.454] configHttp.py -> send_get line:56 [INFO] : login / get请求：
+请求值：{'username': '张豪儿子', 'password': '123456'}
+返回值：
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>405 Method Not Allowed</title>
+<h1>Method Not Allowed</h1>
+<p>The method is not allowed for the requested URL.</p>
+状态码：405
+[2022-03-09  15:30:36.264] configHttp.py -> send_post line:43 [INFO] : login / post请求：
+请求值：{'username': '天才儿子', 'password': '123456'}
+返回值：
+{
+  "code": "0", 
+  "data": {
+    "address": "北京", 
+    "eamil": "111", 
+    "phone": "111", 
+    "userid": 15
+  }, 
+  "msg": "登录成功"
+}
+状态码：200
+[2022-03-09  16:16:19.639] test_login.py -> setup line:29 [INFO] : =================【登录】用例执行-开始===========
+[2022-03-09  16:16:19.640] test_login.py -> test_a line:35 [INFO] : ---->test_a
+[2022-03-09  16:16:19.640] test_login.py -> teardown line:32 [INFO] : =================【登录】用例执行-结束===========
+[2022-03-09  16:16:19.641] test_login.py -> setup line:29 [INFO] : =================【登录】用例执行-开始===========
+[2022-03-09  16:16:19.641] test_login.py -> test_b line:39 [INFO] : ---->test_b
+[2022-03-09  16:16:19.642] test_login.py -> teardown line:32 [INFO] : =================【登录】用例执行-结束===========
+[2022-03-09  16:17:11.947] test_login.py -> setup_class line:29 [INFO] : =================【登录】用例执行-开始===========
+[2022-03-09  16:17:11.947] test_login.py -> test_a line:35 [INFO] : ---->test_a
+[2022-03-09  16:17:11.948] test_login.py -> test_b line:39 [INFO] : ---->test_b
+[2022-03-09  16:17:11.949] test_login.py -> teardown_class line:32 [INFO] : =================【登录】用例执行-结束===========
+[2022-03-09  16:17:41.622] test_login.py -> test_a line:38 [INFO] : ---->test_a
+[2022-03-09  16:17:41.623] test_login.py -> test_b line:42 [INFO] : ---->test_b
+[2022-03-09  16:18:20.800] test_login.py -> setup_class line:35 [INFO] : =================【登录】用例执行-开始===========
+[2022-03-09  16:18:20.801] test_login.py -> test_a line:38 [INFO] : ---->test_a
+[2022-03-09  16:18:20.802] test_login.py -> test_b line:42 [INFO] : ---->test_b
+[2022-03-09  16:18:20.802] test_login.py -> teardown_class line:31 [INFO] : =================【登录】用例执行-结束===========

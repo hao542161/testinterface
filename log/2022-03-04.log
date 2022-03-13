@@ -1,0 +1,5 @@
+[2022-03-04  09:47:29.834] getlog.py -> <module> line:57 [ERROR] : error message
+[2022-03-04  09:47:29.834] getlog.py -> <module> line:58 [DEBUG] : debug message
+[2022-03-04  09:47:29.834] getlog.py -> <module> line:59 [INFO] : info message
+[2022-03-04  09:47:29.834] getlog.py -> <module> line:60 [WARNING] : war message
+[2022-03-04  09:47:29.834] getlog.py -> <module> line:61 [CRITICAL] : cri message
