@@ -1,0 +1,60 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "成功登录",
+    "children" : [ {
+      "name" : "正确的用户名密码进行登录",
+      "children" : [ {
+        "name" : "test_success_login[login_params0]",
+        "uid" : "6f2dcf859056f9d4",
+        "parentUid" : "14525421ae269d8dddac9df2ef6763d7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647158482194,
+          "stop" : 1647158483197,
+          "duration" : 1003
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '天才儿子', 'password': '123456'}" ]
+      } ],
+      "uid" : "14525421ae269d8dddac9df2ef6763d7"
+    } ],
+    "uid" : "02b7a74cb60743cdfe40f48fdabd8db6"
+  }, {
+    "name" : "异常登录",
+    "children" : [ {
+      "name" : "错误的密码、用户进行登录",
+      "children" : [ {
+        "name" : "test_fail_login[错误的密码]",
+        "uid" : "7b3efdbf49611a9f",
+        "parentUid" : "2ba50006af9cd4af6886229ef52cc5eb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1647158483200,
+          "stop" : 1647158483301,
+          "duration" : 101
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '天才儿子', 'password': '111111'}" ]
+      }, {
+        "name" : "test_fail_login[错误的用户]",
+        "uid" : "34c68429fe7989dd",
+        "parentUid" : "2ba50006af9cd4af6886229ef52cc5eb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1647158483332,
+          "stop" : 1647158483473,
+          "duration" : 141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 'ceshi', 'password': '123456'}" ]
+      } ],
+      "uid" : "2ba50006af9cd4af6886229ef52cc5eb"
+    } ],
+    "uid" : "ea863ac3c577d3e62ffe935fcf89b22f"
+  } ]
+}

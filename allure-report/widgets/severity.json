@@ -1,0 +1,31 @@
+[ {
+  "uid" : "34c68429fe7989dd",
+  "name" : "test_fail_login[错误的用户]",
+  "time" : {
+    "start" : 1647158483332,
+    "stop" : 1647158483473,
+    "duration" : 141
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7b3efdbf49611a9f",
+  "name" : "test_fail_login[错误的密码]",
+  "time" : {
+    "start" : 1647158483200,
+    "stop" : 1647158483301,
+    "duration" : 101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f2dcf859056f9d4",
+  "name" : "test_success_login[login_params0]",
+  "time" : {
+    "start" : 1647158482194,
+    "stop" : 1647158483197,
+    "duration" : 1003
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
