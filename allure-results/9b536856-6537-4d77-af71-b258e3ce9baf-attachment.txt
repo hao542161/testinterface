@@ -15,7 +15,7 @@ INFO     PROJECT:configHttp.py:51 login / post请求：
         href="?__debugger__=yes&amp;cmd=resource&amp;f=console.png">
     <script src="?__debugger__=yes&amp;cmd=resource&amp;f=debugger.js"></script>
     <script type="text/javascript">
-      var TRACEBACK = 140097823807696,
+      var TRACEBACK = 140097816468168,
           CONSOLE_MODE = false,
           EVALEX = true,
           EVALEX_TRUSTED = false,
@@ -31,7 +31,7 @@ INFO     PROJECT:configHttp.py:51 login / post请求：
 <h2 class="traceback">Traceback <em>(most recent call last)</em></h2>
 <div class="traceback">
   <h3></h3>
-  <ul><li><div class="frame" id="frame-140097823806744">
+  <ul><li><div class="frame" id="frame-140097816126072">
   <h4>File <cite class="filename">"/usr/local/python3/lib/python3.7/site-packages/flask/app.py"</cite>,
       line <em class="line">2091</em>,
       in <code class="function">__call__</code></h4>
@@ -43,7 +43,7 @@ INFO     PROJECT:configHttp.py:51 login / post请求：
 <pre class="line current"><span class="ws">        </span>return self.wsgi_app(environ, start_response)</pre></div>
 </div>
 
-<li><div class="frame" id="frame-140097823806408">
+<li><div class="frame" id="frame-140097816126408">
   <h4>File <cite class="filename">"/usr/local/python3/lib/python3.7/site-packages/flask/app.py"</cite>,
       line <em class="line">2076</em>,
       in <code class="function">wsgi_app</code></h4>
@@ -60,7 +60,7 @@ INFO     PROJECT:configHttp.py:51 login / post请求：
 <pre class="line after"><span class="ws">        </span>finally:</pre></div>
 </div>
 
-<li><div class="frame" id="frame-140097823807360">
+<li><div class="frame" id="frame-140097816126352">
   <h4>File <cite class="filename">"/usr/local/python3/lib/python3.7/site-packages/flask/app.py"</cite>,
       line <em class="line">2073</em>,
       in <code class="function">wsgi_app</code></h4>
@@ -77,7 +77,7 @@ INFO     PROJECT:configHttp.py:51 login / post请求：
 <pre class="line after"><span class="ws">                </span>error = sys.exc_info()[1]</pre></div>
 </div>
 
-<li><div class="frame" id="frame-140097823807192">
+<li><div class="frame" id="frame-140097816126520">
   <h4>File <cite class="filename">"/usr/local/python3/lib/python3.7/site-packages/flask/app.py"</cite>,
       line <em class="line">1518</em>,
       in <code class="function">full_dispatch_request</code></h4>
@@ -94,7 +94,7 @@ INFO     PROJECT:configHttp.py:51 login / post请求：
 <pre class="line after"><span class="ws">        </span>rv: t.Union[ResponseReturnValue, HTTPException],</pre></div>
 </div>
 
-<li><div class="frame" id="frame-140097823808368">
+<li><div class="frame" id="frame-140097816126464">
   <h4>File <cite class="filename">"/usr/local/python3/lib/python3.7/site-packages/flask/app.py"</cite>,
       line <em class="line">1516</em>,
       in <code class="function">full_dispatch_request</code></h4>
@@ -111,7 +111,7 @@ INFO     PROJECT:configHttp.py:51 login / post请求：
 <pre class="line after"><span class="ws">    </span>def finalize_request(</pre></div>
 </div>
 
-<li><div class="frame" id="frame-140097823806856">
+<li><div class="frame" id="frame-140097816126688">
   <h4>File <cite class="filename">"/usr/local/python3/lib/python3.7/site-packages/flask/app.py"</cite>,
       line <em class="line">1502</em>,
       in <code class="function">dispatch_request</code></h4>
@@ -128,7 +128,7 @@ INFO     PROJECT:configHttp.py:51 login / post请求：
 <pre class="line after"><span class="ws">        </span>error handling.</pre></div>
 </div>
 
-<li><div class="frame" id="frame-140097823807304">
+<li><div class="frame" id="frame-140097816126632">
   <h4>File <cite class="filename">"/usr/local/pythonhj/testinterface/controller/user_controller.py"</cite>,
       line <em class="line">23</em>,
       in <code class="function">login</code></h4>
