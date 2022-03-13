@@ -12,7 +12,7 @@ import pytest
 if __name__ == '__main__':
     # 运行所有接口
     pytest.main()
-    os.system('allure generate '+gf.getrootpath()+'/report/allure -o '+gf.getrootpath()+'/report --clean')
+    os.system('allure generate '+gf.getrootpath()+'/report/allure -o '+gf.getrootpath()+'/allure-report --clean')
     # 运行主要接口
     # pytest.main(['-m=main'])
     # 运行次要接口
